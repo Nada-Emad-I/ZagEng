@@ -1,0 +1,14 @@
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\bin\Debug\net10.0\C#_Task1.exe
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\bin\Debug\net10.0\C#_Task1.deps.json
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\bin\Debug\net10.0\C#_Task1.runtimeconfig.json
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\bin\Debug\net10.0\C#_Task1.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\bin\Debug\net10.0\C#_Task1.pdb
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.AssemblyInfoInputs.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.AssemblyInfo.cs
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.csproj.CoreCompileInputs.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\refint\C#_Task1.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.pdb
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\C#_Task1.genruntimeconfig.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\Task4\Task4\obj\Debug\net10.0\ref\C#_Task1.dll
