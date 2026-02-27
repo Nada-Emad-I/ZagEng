@@ -1,0 +1,14 @@
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\bin\Debug\net10.0\LinqZag.exe
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\bin\Debug\net10.0\LinqZag.deps.json
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\bin\Debug\net10.0\LinqZag.runtimeconfig.json
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\bin\Debug\net10.0\LinqZag.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\bin\Debug\net10.0\LinqZag.pdb
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.AssemblyInfoInputs.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.AssemblyInfo.cs
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.csproj.CoreCompileInputs.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\refint\LinqZag.dll
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.pdb
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\LinqZag.genruntimeconfig.cache
+C:\Users\nadaa\OneDrive\Documents\ZAG\C#\LinqZag\LinqZag\obj\Debug\net10.0\ref\LinqZag.dll
