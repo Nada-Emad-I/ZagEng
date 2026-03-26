@@ -1,0 +1,153 @@
+1. What are the fundamental differences between the original ASP.NET and ASP.NET Core?
+
+ASP.NET Core is a cross-platform (Windows, Linux, macOS), open-source, modular, and significantly faster. 
+ASP.NET was Windows-only and tightly coupled to IIS and the System.Web assembly.
+
+--------------
+
+
+2. What does it mean for an API to be "Stateless"?
+Each HTTP request is completely independent. The server holds no memory of previous requests. 
+
+-------------
+
+3. Break down the anatomy of an HTTP Request URL?
+
+https://api.example.com:201/Category/4?sort=asc
+
+https → Scheme
+api.example.com → Host/Domain
+:201 → Port
+/Category/4 → Path
+?sort=asc → Query String
+
+------------------
+
+4. What are the primary HTTP Methods (Verbs) and their standard uses?
+
+GET → Read/retrieve data
+POST → Create a new resource
+PUT → update a resource
+DELETE → Delete a resource
+
+-----------------
+5. What is the role of Program.cs in an ASP.NET Core application?
+
+It's the application entry point. It does two things: registers services into the DI container and configures the middleware pipeline .
+
+
+-----------------
+
+6. Why is Swagger/OpenAPI typically enabled only in the "Development" environment?
+
+Swagger exposes your entire API structure, endpoints, and models , which is a security risk in production.
+It's useful for developers during development but should never be publicly accessible.
+
+-----------------
+7. What is the core concept of "Dependency Injection" (DI)?
+
+Instead of a class creating its own dependencies with new, the dependencies are provided (injected) from outside. 
+This inverts control — the class just declares what it needs, and the DI container supplies it.
+
+----------------
+8. Explain the three Service Lifetimes in ASP.NET Core DI?
+
+-Transient -> Every time it's requested
+-Scoped ->Once per HTTP request
+-Singleton ->Once for the app's lifetime
+
+---------------
+9. Why is it a "Best Practice" to register services against an Interface rather than a concrete Class?
+
+It allows you to swap implementations without changing the consuming code.
+
+----------------
+10. What are the "Launch Profiles" found in 
+launchSettings.json ?
+
+They define different configurations for running the app locally 
+
+-----------------
+
+11. How does JSON facilitate data exchange in APIs?
+
+JSON is the standard data exchange format because it's lightweight, human-readable. 
+ASP.NET Core automatically serializes C# objects to JSON (responses) and deserializes JSON back to C# objects (requests).
+
+
+================================================================================
+Question 1 - What is Dependency?
+
+The OrderService has three dependencies inside the method with new:
+
+SqlConnection ,EmailSender ,FileLogger 
+
+The problems:tight coupling. You cannot swap them, change behavior without modifying this class directly.  
+
+----------------------------------
+
+Question 2 - Tight Coupling Problem
+
+What's the difference between A and B? Which one is better?
+Scenario A. UserService creates EmailService itself with new EmailService(). You can never swap it for a different email provider.
+
+
+Scenario B. UserService depends on IEmailService (an interface), and the actual implementation is injected via the constructor.
+You can pass any class that implements IEmailService.
+
+Scenario B is better.
+
+----------------------------
+
+Question 3 - Constructor Injection
+What happens when a request is received?
+
+
+When a POST request arrives, the DI container:
+
+Sees ProductController is needed 
+Sees it needs ProductService -> creates a new ProductService (Scoped)
+Sees ProductService needs IRepository -> creates a new SqlRepository (Scoped)
+Injects SqlRepository -> into ProductService -> into ProductController
+Calls AddProduct() -> which calls _repository.Save(product) -> prints "Saving to SQL Database".
+
+--------------------------
+
+Question 4 - DI Container Registration
+What is the output for each registration?
+
+// Registration A -> False 
+
+// Registration B -> True 
+
+// Registration C -> True 
+
+----------------
+
+Question 5 - Multiple Registrations
+
+Which implementation will Controller A receive?
+Controller A receives MailgunEmailService (The Last).
+
+
+How many services will be injected into Controller B?
+Controller B receives all 3 .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
